@@ -1,0 +1,5 @@
+ALL: gadgetkbd
+	gcc -o gadgetkbd gadgetkbd.c
+
+clean:
+	rm gadgetkbd *.o
